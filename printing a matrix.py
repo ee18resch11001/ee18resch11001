@@ -4,8 +4,15 @@ Created on Fri Sep 24 14:04:20 2021
 
 @author: Subhash
 """
+# question:A basic code for printing matrix , taking elements input from user 
+#     take inputs from user given by format
+#     1)number of rows
+#     2)number of columns
+#     3)elements one by one , press enter after each integer input
+#     Expected output in matrix format
+#     Run the code to check yourself the formats
 
-# A basic code for matrix input from user 
+
   
 R = int(input("Enter the number of rows:")) 
 C = int(input("Enter the number of columns:")) 
