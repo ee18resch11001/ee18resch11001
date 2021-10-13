@@ -2,21 +2,34 @@
 # Problem:
 # https://www.hackerearth.com/practice/data-structures/arrays/multi-dimensional/practice-problems/algorithm/gift-for-almas-3-33d2f7c7/
 
-# On his birthday, Almas was given a () matrix of natural numbers up to  and instructions for it. The instruction consisted of symbols  and , where if the symbol  is given you need to rotate the matrix  degrees to the left, and for the symbol  you need to rotate the matrix  degrees to the right. The instruction was only  characters in length so Almas could handle the twists with ease. Your task is to display the matrix that Almas had at the end of these turns.
+# On his birthday, Almas was given a nxn(1<=n<=500) matrix of natural numbers up to 500 and instructions for it. 
+# The instruction consisted of symbols L and R, where if the symbol L is given you need to rotate the matrix  90 degrees to the left, 
+# and for the symbol R you need to rotate the matrix 90 degrees to the right. The instruction was only 3 characters in length so Almas could handle the twists with ease. 
+# Your task is to display the matrix that Almas had at the end of these turns.
 
 # Input
 
-# The first line consists of one integer  - the size of the matrix.
+# The first line consists of one integer  n- the size of the matrix.
 
-# In the next  lines, you are given  integers. Numbers can range from  to .
+# In the next n lines, you are given n integers. Numbers can range 1 from  to 500.
 
 # Output
 
-# Output the final matrix .
+# Output the final matrix nxn.
 
 # Note
 
 # Important note - you should not print any whitespace or newline if it is not necessary
+
+# Sample Input:
+# 2
+# 1 2
+# 3 4
+# RLR
+
+# Sample Output:
+# 3 1
+# 4 2
 
 
 import numpy as np
